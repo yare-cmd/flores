@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #fce4ec, #f8bbd9);
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.contenedor {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #ad1457;
+  margin-bottom: 25px;
+}
+
+#buscador {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 25px;
+  border: 2px solid #f8bbd9;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+form {
+  background: #fef2f7;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin: 12px 0 5px;
+  font-weight: 600;
+  color: #6a1b47;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #f8bbd9;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.botones {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#btnGuardar {
+  background: #ec407a;
+  color: white;
+}
+#btnGuardar:hover { background: #d81b60; }
+
+#btnCancelar {
+  background: #e0e0e0;
+  color: #333;
+}
+#btnCancelar:hover { background: #bdbdbd; }
+
+.flor-tarjeta {
+  border: 1px solid #f8bbd9;
+  border-radius: 10px;
+  padding: 18px;
+  margin-bottom: 15px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  background: #fff9fc;
+}
+
+.flor-imagen {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  background: #f3e5f5;
+}
+
+.flor-info { flex: 1; }
+.flor-nombre { font-size: 19px; font-weight: bold; color: #ad1457; }
+.flor-precio { font-size: 18px; color: #2e7d32; font-weight: bold; margin: 8px 0; }
+
+.flor-acciones { margin-top: 10px; }
+.btn-editar { background: #ffb300; color: #212121; margin-right: 8px; }
+.btn-editar:hover { background: #ffa000; }
+.btn-eliminar { background: #e53935; color: white; }
+.btn-eliminar:hover { background: #c62828; }
